@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_act_container {
+    color: #8f8f8f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 10px 10px 0;
+}
+
+.list_act_container a {
+    /* color: #fff; */
+    display: flex;
+    padding: 10px;
+    border: 0;
+    text-decoration: none;
+}
+
+.list_act_container>form {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+}
+
+.list_act_container button {
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    transition: background-color 225ms ease-out;
+}
+
+.list_act_container button p {
+    display: inline;
+    /* color: #fff; */
+    margin: 3px 10px 0;
+}
+
+
+.edit {
+    background-color: #147eff;
+}
+
+.edit:hover {
+    background-color: #479aff;
+}
+
+.edit:active {
+    background-color: #0065e0;
+}
+
+.delete {
+    background-color: #d11800;
+}
+
+.delete:hover {
+    background-color: #ff2205;
+}
+
+.delete:active {
+    background-color: #9e1200;
+}
+
+.add {
+    background-color: #00d13f;
+}
+
+.add:hover {
+    background-color: #05ff58;
+}
+
+.add:active {
+    background-color: #009e28;
+}
+
+.edit_img {
+    background: url(img/edit.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.delete_img {
+    background: url(img/delete.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.add_img {
+    background: url(img/plus.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.form {
+    margin: 10px 290px;
+    width: 400px;
+    padding: 25px;
+    background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+}
+
+.form div {
+    margin: 0 0 .5em;
+}
+
+
+.form div label {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 .5em;
+    color: #222;
+}
+
+.form div input {
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    box-sizing: border-box;
+    border-radius: 1px;
+    width: 100%;
+}
+
+.form div input:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.form div input:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+
+}
